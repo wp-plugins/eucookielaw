@@ -92,5 +92,5 @@ This update introduces several improvements, features and bugfixes. For a detail
 
 == FAQ ==
 
-* How can I customize the banner style?
-  Please visit the (official documentation page on GitHub)[https://github.com/diegolamonica/EUCookieLaw]
+* **How can I customize the banner style?**
+  Please visit the [official documentation page on GitHub](https://github.com/diegolamonica/EUCookieLaw)
