@@ -1,7 +1,7 @@
 <?php
 /**
  * EUCookieLaw: EUCookieLaw a complete solution to accomplish european law requirements about cookie consent
- * @version 2.0
+ * @version 2.0.1
  * @link https://github.com/diegolamonica/EUCookieLaw/
  * @author Diego La Monica (diegolamonica) <diego.lamonica@gmail.com>
  * @copyright 2015 Diego La Monica <http://diegolamonica.info>
@@ -17,7 +17,7 @@ Class EUCookieLaw{
 	const TEXTDOMAIN        = 'EUCookieLaw';
 	const CUSTOMDOMAIN      = 'EUCookieLawCustom';
 	const MENU_SLUG	        = 'EUCookieLaw';
-	const VERSION           = '2.0';
+	const VERSION           = '2.0.1';
 	const CSS               = 'EUCookieLaw_css';
 	const CUSTOMCSS         = 'EUCookieLaw_css_custom';
 	const JS                = 'EUCookieLaw_js';
@@ -50,7 +50,7 @@ Class EUCookieLaw{
 
 	const COOKIE_NAME       = '__eucookielaw';
 
-	const ERR_MSG_CHECK_PERMS_OR_DIY    = 'Check your permissions or put this data into the file:';
+	const ERR_MSG_CHECK_PERMS_OR_DIY    = 'Check your permissions or put this data into the file <code>%s</code>:';
 	const ERR_MSG_FILE_UPDATED          = 'File <code>%s</code> updated!';
 
 	const WPC_FILE_NOT_FOUND     = 0; # Only for clean WP installations
@@ -141,8 +141,7 @@ Class EUCookieLaw{
 			'ZENC_DIR'  => WP_CONTENT_DIR .'/cache/zencache',
 		);
 
-		global $wp_filesystem;
-		if ( ! $template = $wp_filesystem->get_contents(dirname(__FILE__) . '/templates/'. $file ) ){
+		if ( ! $template = file_get_contents(dirname(__FILE__) . '/templates/'. $file ) ){
 			# error_log("unable to read $file");
 			return false;
 
@@ -249,9 +248,8 @@ Class EUCookieLaw{
 			}
 		}
 
-		global $wp_filesystem;
 
-		if(!$wp_filesystem->put_contents( ABSPATH.'wp-config.php', implode("",$newWPConfig) )){
+		if(!file_put_contents( ABSPATH.'wp-config.php', implode("",$newWPConfig) )){
 			$this->notifyMessage( sprintf(
 				__(self::ERR_MSG_CHECK_PERMS_OR_DIY, self::TEXTDOMAIN),
 				ABSPATH.'wp-config.php'), 'error',
@@ -268,11 +266,9 @@ Class EUCookieLaw{
 	private function updateHtaccess($directory){
 		$template = $this->getTemplateFile('htaccess_fragment.txt');
 
-		global $wp_filesystem;
+		if( $htaccess = file_get_contents($directory.'/.htaccess') ){
 
-		if( $htaccess = $wp_filesystem->get_contents($directory.'/.htaccess') ){
-
-			if ( (strpos($htaccess, $template)!==false)  || $wp_filesystem->put_contents( $directory . '/.htaccess', $htaccess.$template ) ) {
+			if ( (strpos($htaccess, $template)!==false)  || file_put_contents( $directory . '/.htaccess', $htaccess.$template ) ) {
 
 				$this->notifyMessage( sprintf(
 					__( self::ERR_MSG_FILE_UPDATED, self::TEXTDOMAIN ),
@@ -300,12 +296,11 @@ Class EUCookieLaw{
 	}
 
 	private function writeFileForCachePlugin($directory){
-		global $wp_filesystem;
 
 		$phpFile = $directory .'/EUCookieCache.php';
 
 		$template = $this->getTemplateFile('EUCookieCache.php');
-		if( !$wp_filesystem->put_contents( $phpFile, $template ) ){
+		if( !file_put_contents( $phpFile, $template ) ){
 			$this->notifyMessage(
 				sprintf(
 					__('Unable to write the file <code>%s</code>', self::TEXTDOMAIN) . '<br />' .
@@ -331,10 +326,9 @@ Class EUCookieLaw{
 			return;
 		}
 
-		global $wp_filesystem;
 
 		# Needed only for W3TC
-		if ( $wp_filesystem->exists( WP_CONTENT_DIR . '/cache/page_enhanced' ) ) {
+		if ( file_exists( WP_CONTENT_DIR . '/cache/page_enhanced' ) ) {
 
 			$this->writeFileForCachePlugin( WP_CONTENT_DIR . '/cache/page_enhanced' );
 
@@ -380,9 +374,7 @@ Class EUCookieLaw{
 				$config .= $key . '="' . str_replace( '"', '""', $value ) . "\"\n";
 			}
 
-			global $wp_filesystem;
-
-			if ( $wp_filesystem->put_contents( $file, $config ) ) {
+			if ( file_put_contents( $file, $config ) ) {
 				$this->notifyMessage( sprintf(
 						__( self::ERR_MSG_FILE_UPDATED, self::TEXTDOMAIN ),
 						$file )
