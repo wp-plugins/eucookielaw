@@ -1,7 +1,7 @@
 <?php
 /**
  * EUCookieLaw: EUCookieLaw a complete solution to accomplish european law requirements about cookie consent
- * @version 2.0.1
+ * @version 2.0.2
  * @link https://github.com/diegolamonica/EUCookieLaw/
  * @author Diego La Monica (diegolamonica) <diego.lamonica@gmail.com>
  * @copyright 2015 Diego La Monica <http://diegolamonica.info>
@@ -17,7 +17,7 @@ Class EUCookieLaw{
 	const TEXTDOMAIN        = 'EUCookieLaw';
 	const CUSTOMDOMAIN      = 'EUCookieLawCustom';
 	const MENU_SLUG	        = 'EUCookieLaw';
-	const VERSION           = '2.0.1';
+	const VERSION           = '2.0.2';
 	const CSS               = 'EUCookieLaw_css';
 	const CUSTOMCSS         = 'EUCookieLaw_css_custom';
 	const JS                = 'EUCookieLaw_js';
@@ -175,28 +175,8 @@ Class EUCookieLaw{
 		<?php
 	}
 
-	private function getFilesystem($path){
-		$url    = admin_url( 'admin.php?page=' . __CLASS__ . '-messages' );
-		$method = get_filesystem_method(array(), $path);
-		$response = false;
-		if ( false === ( $creds = request_filesystem_credentials( $url, $method, false, false ) ) ) {
-
-		}else{
-
-			if(!WP_Filesystem($creds)){
-				request_filesystem_credentials($url, $method, true, false);
-			}else {
-
-				$response = true;
-
-			}
-		}
-		return $response;
-	}
 
 	private function updateWPConfig() {
-
-		if(!$this->getFilesystem(ABSPATH)) return;
 
 		$advancedCacheTemplate = $this->getTemplateFile('wp-config.fragment.php');
 
@@ -322,9 +302,6 @@ Class EUCookieLaw{
 	}
 
 	private function updateCacheDirectory() {
-		if ( ! $this->getFilesystem(WP_CONTENT_DIR) ) {
-			return;
-		}
 
 
 		# Needed only for W3TC
@@ -344,9 +321,6 @@ Class EUCookieLaw{
 		if(file_exists(WP_CONTENT_DIR . '/cache') && is_dir(WP_CONTENT_DIR . '/cache')) {
 
 
-			if ( ! $this->getFilesystem(WP_CONTENT_DIR .'/cache') ) {
-				return;
-			}
 
 			$domains = get_option( self::OPT_3RDPDOMAINS );
 			$iniFile = array(
