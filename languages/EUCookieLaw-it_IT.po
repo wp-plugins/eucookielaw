@@ -1,0 +1,720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EUCookieLaw\n"
+"POT-Creation-Date: 2015-07-11 11:05+0100\n"
+"PO-Revision-Date: 2015-07-11 11:31+0100\n"
+"Last-Translator: Diego La Monica <diego.lamonica@gmail.com>\n"
+"Language-Team: Diego La Monica <diego.lamonica@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /home/diego/sviluppo/php/wp/wp-content/plugins/"
+"EUCookieLaw\n"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:298
+#, php-format
+msgid "Unable to write the file <code>%s</code>"
+msgstr "Impossibile scrivere il file <code>%s</code>"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:377
+#, php-format
+msgid "Error writing configuration file <code>%s</code>!"
+msgstr "Impossibile scrivere il file di configurazione <code>%s</code>!"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:399
+msgid ""
+"Warning: EUCookieLaw debug is enabled. Disable it once you've done your tests"
+msgstr ""
+"Attenzione: il debug di EUCookieLaw è abilitato. Disabilitalo una volta che "
+"hai terminato i test"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:415
+#, php-format
+msgid ""
+"EUCookieLaw would not work with your cache until you will not <a "
+"href='%s'>go to the settings page</a> and execute the <strong>%s</strong> "
+"action (in the sidebar)."
+msgstr ""
+"EUCookieLaw non sarà in grado di funzionare correttamente con il tuo plugin "
+"di cache  finquando non andrai sulla <a href='%s'>pagina delle impostazioni</"
+"a> e utilizzerai il comando <strong>%s</strong> (nella sidebar)."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:418
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1540
+msgid "Merge with cache plugin"
+msgstr "Unisci al plugin di cache"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:559
+msgid "About"
+msgstr "Informazioni su"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:560
+msgid "EUCookieLaw Settings"
+msgstr "Impostazioni di EUCookieLaw"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:560
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:561
+msgid "EUCookieLaw Tools"
+msgstr "Strumenti di EUCookieLaw"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:561
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:723
+msgid "Tools"
+msgstr "Strumenti"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:570
+msgid "About EUCookieLaw"
+msgstr "Informazioni su EUCookieLaw"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:577
+msgid "CSS Cookie Banner Customization"
+msgstr "Personalizzazione CSS del Banner dei cookie"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:583
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:711
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:730
+msgid "Donation"
+msgstr "Donazione"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:675
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1530
+#, php-format
+msgid ""
+"If you find this plugin useful, and since I've noticed that nobody did this "
+"script (as is) before of me, I'd like to receive <a href=\"%s\">a donation</"
+"a> as thankful for the time You've earned for you, your family and your "
+"hobbies! :)"
+msgstr ""
+"Se hai trovato questo plugin utile, e poichè ho visto che nessun altro ha "
+"sviluppato uno script come questo (che blocca i cookie) prima di me, mi "
+"farebbe piacere ricevere <a href=\"%s\">una donazione</a> come segno di "
+"ringraziamento per il tempo che tu hai guadagnato per te, per la tua "
+"famiglia e per i tuoi hobby! :)"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:681
+msgid ""
+"You can find further informations about this plugin on <a href=\"https://"
+"github.com/diegolamonica/EUCookieLaw/\">GitHub</a>"
+msgstr ""
+"Puoi trovare ulteriori informazioni su questo plugin su  <a href=\"https://"
+"github.com/diegolamonica/EUCookieLaw/\">GitHub</a>"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:692
+msgid "Banner"
+msgstr "Titolo del banner"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:698
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:705
+msgid "Support"
+msgstr "Supporto"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:743
+#, php-format
+msgid "Custom directory <code>%s</code> created"
+msgstr "La directory personalizzata <code>%s</code> è stata creata"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:745
+#, php-format
+msgid "Unable to create custom directory <code>%s</code>"
+msgstr "Impossibile creare la directory personalizzata <code>%s</code>"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:748
+#, php-format
+msgid "Custom directory <code>%s</code> already exists"
+msgstr "La directory personalizzata <code>%s</code> già esiste"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:757
+#, php-format
+msgid "File <code>%s</code> updated"
+msgstr "Sorgente <code>%s</code> aggiornato"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:759
+#, php-format
+msgid "Unable create <code>%s</code>. check directory permissions"
+msgstr ""
+"Impossibile creare <code>%s</code>. Verificare i permessi della directory."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:762
+#, php-format
+msgid "File <code>%s</code> exists and will not be replaced"
+msgstr "Il file <code>%s</code> esiste e non sarà aggiornato."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:778
+msgid "Generate Custom Directory"
+msgstr "Genera la directory personalizzata"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:780
+msgid ""
+"Using this function you can generate files for customization starting from "
+"the default files bundled with this plugin"
+msgstr ""
+"Utilizzando questa funzione puoi generare i file per la personalizzazione "
+"partendo da quelli predefiniti forniti con questo plugin"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:784
+msgid "Update"
+msgstr "Aggiorna"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:785
+msgid "if you want to generate only the missing files"
+msgstr "Se vuoi generare solo i file mancanti"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:788
+msgid "Rebase"
+msgstr "Reimposta"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:789
+msgid ""
+"if you want to regenerate either new and existing files with the ones "
+"bundled with the plugin"
+msgstr "Se vuoi rigenerare sia i vecchi che i nuovi file"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:797
+msgid "Debug log"
+msgstr "Log di debug"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:799
+msgid ""
+"Here you can see what happened on the frontend when user reach your site"
+msgstr ""
+"In questa sezione puoi verificare cosa succede sul frontend quando un utente "
+"raggiunge il tuo sito"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:810
+msgid "Log file cleaned"
+msgstr "File di log ripulito"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:812
+msgid "Unable to delete log file"
+msgstr "Impossibile eliminare il file di log"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:819
+msgid "Clear log file"
+msgstr "Ripulisci il file di log"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:827
+msgid "Log file not found"
+msgstr "File di log non presente"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:831
+msgid "Site analysis"
+msgstr "Analisi del sito"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:833
+msgid ""
+"Using this powerfull tool you can detect some external URL used on your blog"
+msgstr ""
+"Utilizzando questo potente strumento puoi identificare alcuni degli URL "
+"esterni utilizzati dal tuo blog"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:836
+msgid "Beware"
+msgstr "Attenzione"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:837
+msgid ""
+"This functionality is still experimental and its results could be not "
+"complete. So if you still encounter that your page is giving you further "
+"cookies, then you should make a manual page analisys and detect scripts and "
+"elements that are generating the cookies"
+msgstr ""
+"Questa funzionalità è ancora in fase sperimentale ed il risultato potrebbe "
+"non essere completo. Pertanto se riscontri che la tua pagina fornisce altri "
+"cookie (anche se hai inserito in configurazione gli elementi descritti su "
+"questa pagina), sarebbe opportuno eseguire un'analisi manuale della pagina "
+"web generata per verificare gli sript e gli elementi che stanno generando i "
+"cookie"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:840
+msgid "Scan now"
+msgstr "Analizza ora"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:861
+msgid "Delivered HTTP Cookies"
+msgstr "Cookie HTTP rilasciati"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:865
+msgid "Name"
+msgstr "Nome"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:866
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:905
+msgid "Value"
+msgstr "Valore"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:867
+msgid "Expires"
+msgstr "Scadenza"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:868
+msgid "Path"
+msgstr "Percorso"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:869
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:952
+msgid "Domain"
+msgstr "Dominio"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:900
+msgid "Delivered Headers"
+msgstr "Intestazioni rilasciate"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:904
+msgid "Key"
+msgstr "Chiave"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:947
+msgid "Here are the domains found on your site"
+msgstr "Ecco i domini rilevati sul tuo sito"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:953
+msgid "Action"
+msgstr "Azione"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:976
+#, php-format
+msgid "Check if %s produces HTTP Cookies"
+msgstr "Verifica se %s produce dei cookie HTTP"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:992
+msgid "No url found"
+msgstr "Nessun URL trovato"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1054
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1058
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1072
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1087
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1213
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1236
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1254
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1356
+msgid "Yes"
+msgstr "Sì"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1063
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1077
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1092
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1224
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1241
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1259
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1361
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1481
+msgid "No"
+msgstr "No"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1068
+msgid "Enabled on login page"
+msgstr "Abilita sulla pagina di autenticazione"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1082
+msgid "Manage bots as humans"
+msgstr "Tratta i bots come umani"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1096
+msgid ""
+"If set to yes the search engines and other automated scannin systems of your "
+"site will be threated as they would be normal users"
+msgstr ""
+"Se impostato a Sì, i motori di ricerca e gli altri sistemi di scansione "
+"automatizzata saranno trattati come degli utenti qualsiasi"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1101
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1108
+msgid "Banner Title"
+msgstr "Titolo del banner"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1105
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1131
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1147
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1163
+msgid "Multilingual support"
+msgstr "Supporto per il multilinga"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1107
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1133
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1149
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1165
+#, php-format
+msgid ""
+"If you set <code>%1$s</code> with value <code>%2$s</code> it will be "
+"acquired by the custom translation file."
+msgstr ""
+"Se imposti <code>%1$s</code> con il valore <code>%2$s</code> esso verrà "
+"acquisito dal file di traduzioni personalizzate."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1115
+msgid "HTML tag for Title"
+msgstr "Tag HTML per il Titolo"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1119
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1126
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1134
+msgid "Banner Description"
+msgstr "Descrizione del banner"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1125
+#, php-format
+msgid "In the <code>%s</code> field you can write HTML."
+msgstr "Nel campo <code>%s</code>  puoi scrivere del codice HTML. "
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1142
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1150
+msgid "Banner Agree button"
+msgstr "Etichetta pulsante di autorizzazione"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1158
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1166
+msgid "Banner Disagree button"
+msgstr "Etichetta pulsante di rifiuto"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1174
+msgid "Fixed on"
+msgstr "Fissa"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1177
+msgid "Above the contents"
+msgstr "Al di sopra dei contenuti"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1178
+msgid "Top of the page"
+msgstr "In testa alla pagina"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1179
+msgid "Bottom of the page"
+msgstr "In fondo alla pagina"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1184
+msgid "Style"
+msgstr "Stile"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1188
+msgid "Default"
+msgstr "Predefinito"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1189
+msgid "Smothed green style"
+msgstr "Stile in sfumature di verde "
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1190
+msgid "Clear and elegant style"
+msgstr "Stile pulito ed elegante"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1191
+msgid "Floating banner"
+msgstr "Banner fluttuante"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1209
+msgid "Agree on scroll"
+msgstr "Accettazione allo scroll"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1216
+#, php-format
+msgid "after %s pixels"
+msgstr "dopo %s pixels"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1231
+msgid "Agree on click"
+msgstr "Accettazione al click"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1245
+msgid ""
+"If enabled, users can click everywhere on the page, outside the banner, to "
+"apply their consent"
+msgstr ""
+"Se abilitato l'utente mostrerà il proprio consenso cliccando su qualsiasi "
+"elemento della pagina, al di fuori del banner."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1250
+msgid "Reload on consent"
+msgstr "Ricarica dopo il consenso"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1280
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1300
+msgid "Blocked domains"
+msgstr "Domini bloccati"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1299
+#, php-format
+msgid ""
+"In the <code>%s</code> field you must type all the blocked URLs (one per "
+"field) without the protocol (eg. <code>www.google.it</code>,<code>placehold."
+"it</code>"
+msgstr ""
+"Nel campo <code>%s</code> bisogna riportare tutti gli URL bloccati senza "
+"protocollo (es.  <code>www.google.it</code>,<code>placehold.it</code>)"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1307
+#, php-format
+msgid ""
+"Remember that if you put a point (.) on front of URL, then it means the "
+"domain and all subdomains (eg. <code>%s</code> means <code>%s</code>, <code>"
+"%s</code>, <code>%s</code> and so on)"
+msgstr ""
+"Ricorda che se un punto (.) davanti agli URL sarà inteso come il dominio e "
+"tutti i sotto-domini (per es. <code>%s</code> means <code>%s</code>, <code>"
+"%s</code>, <code>%s</code> and so on)"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1315
+msgid "All from Google"
+msgstr "Tutti i servizi Google"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1316
+msgid "Google Maps"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1317
+msgid "Google Fonts"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1318
+msgid "Google Analytics"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1319
+msgid "Google Adsense"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1320
+msgid "Google Doubleclick"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1321
+msgid "AddThis"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1322
+msgid "Digg"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1323
+msgid "Eventbrite"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1324
+msgid "Facebook"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1325
+msgid "Instagram"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1326
+msgid "LinkedIn"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1327
+msgid "Pinterest"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1328
+msgid "Twitter"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1329
+msgid "Vimeo"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1330
+msgid "Youtube"
+msgstr ""
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1337
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1344
+msgid "Search domain only in this tags"
+msgstr "Ricerca i domini solo in questi tag"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1343
+#, php-format
+msgid ""
+"In the <code>%s</code> field you should report all the tags you want to look "
+"for the domain separated by a pipe (<code>|</code>)  (eg. <code>script|"
+"iframe|link</code>"
+msgstr ""
+"Nel campo <code>%s</code> bisogna riportare tutti i tag separati dal "
+"carattere pipe (<code>|</code>)  in cui cercare il dato di domino (eg. "
+"<code>script|iframe|link</code>)"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1351
+msgid "Look url in <code>script</code> source"
+msgstr "Cerca l'URL nel codice sorgente nel tag <code>script</code>"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1365
+msgid ""
+"If you enable this option, EUCookieLaw tries to look for the defined rules "
+"in the <code>script</code> elements of the page"
+msgstr ""
+"Se abiliti questa opzione, EUCookieLaw proverà a cercare gli url definiti "
+"nelle regole nei tag <code>script</code> presenti sulla pagina"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1370
+msgid "Replaced <code>iframe</code>s URL:"
+msgstr "Sorgente <code>iframe</code> sostituito da:"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1373
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1389
+msgid "Empty page"
+msgstr "Pagina vuota"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1374
+msgid "Default page"
+msgstr "Pagina Predefinita"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1379
+msgid "Custom page"
+msgstr "Pagina personalizzata"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1386
+msgid "Replaced <code>scripts</code>s source:"
+msgstr "Sorgente <code>script</code> sostituito da:"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1390
+msgid "Empty script"
+msgstr "Script vuoto"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1391
+msgid "Default script"
+msgstr "Script Predefinito"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1396
+msgid "Custom script"
+msgstr "Script personalizzato"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1403
+msgid "Cookie duration (in days)"
+msgstr "Durata del cookie (in giorni)"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1408
+msgid "Set it to <strong>0</strong> to generate a session cookie."
+msgstr "Imposta a <strong>0</strong> per generare un cookie di sessione"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1415
+msgid "Allowed cookies"
+msgstr "Cookie Consentiti"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1434
+msgid ""
+"The law, allows you to write the technical cookies of your site, so you can "
+"write here (one per field) which one are allowed."
+msgstr ""
+"La legge, ti consente di scrivere i cookie tecnici del tuo sito, quindi è "
+"possibile riportare qui quali (uno per campo) sono consentiti."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1439
+msgid ""
+"<strong>Note:</strong> if you want to allow multiple cookies with the same "
+"prefix please type the prefix followed by an asterisk (eg. <code>__utm*</"
+"code>) "
+msgstr ""
+"<strong>Nota:</strong> se vuoi consentire la scrittura di più cookie aventi "
+"lo stesso prefisso, puoi riportare il prefisso seguito da un asterisco (per "
+"esempio <code>__utm*</code>)"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1451
+msgid "Enable debug"
+msgstr "Abilita il debug"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1455
+msgid "Write on error log"
+msgstr "Scrivi nel log degli errori di sistema"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1461
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1474
+#, php-format
+msgid "Log file will be written in <code>%s</code>"
+msgstr "Il file di log sarà scritto in <code>%s</code>"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1468
+msgid "Write on log file"
+msgstr "Scrivi in un file di log"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1486
+msgid ""
+"When debug is enabled you can see what is happened and which rules are "
+"applied directly in the source of your generated HTML page"
+msgstr ""
+"Quando il debug è abilitato è possibile visionare cosa succede e quali "
+"regole sono state applicate direttamente nel codice sorgente del tuo HTML "
+"generato."
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1489
+msgid "Render page with"
+msgstr "Elabora la pagina con"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1493
+msgid "DOMDocument"
+msgstr "DOMDocument"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1497
+msgid "Not available"
+msgstr "Non disponibile"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1506
+msgid "Regular Expression"
+msgstr "Espressioni regolari"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1512
+msgid ""
+"It's reccomended to to use DOMDocument to render the page, however, if you "
+"encounter problems using this engine you can switch to Regular Expression "
+"engine"
+msgstr ""
+"È consiliato l'utilizzo di DOMDocument per l'elaborazione della pagina, "
+"tuttavia se riscontri problemi nell'utilizzare questo elaboratore puoi "
+"adottare il motore Espressioni Regolari"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1518
+msgid ""
+"If DOMDocument library is not available on your host then the Regular "
+"Expression engine will be used by default"
+msgstr ""
+"Se la libreria DOMDocument non è disponibile sul tuo host allora sarà "
+"utilizzato il motore Espressioni Regolari"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1525
+msgid "Save"
+msgstr "Salva"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1526
+msgid "Export settings"
+msgstr "Esporta le impostazioni"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1527
+msgid "Import settings"
+msgstr "Importa le impostazioni"
+
+#: /home/diego/sviluppo/php/wp/wp-content/plugins/EUCookieLaw/eucookielaw-wp.php:1547
+msgid ""
+"Note that, to ensure the cached contents uses the right settings from "
+"EUCookieLaw you need to empty your cache (according to specific cache plugin "
+"settings) once you have saved the configuration"
+msgstr ""
+"Importante, assicurarsi di aver svuotato i contenuti in cache una volta "
+"salvate le impostazioni di EUCookieLaw per assicurare che il plugin funzioni "
+"correttamente con le tue impostazioni di cache."
+
+#~ msgid "Unable to update <code>.htaccess</code> in <code>%s</code>"
+#~ msgstr ""
+#~ "Impossibile aggiornare il file <code>.htaccess</code> in <code>%s</code>"
+
+#~ msgid "The banner title"
+#~ msgstr "Titolo del banner"
+
+#~ msgid "I agree"
+#~ msgstr "Sono d'accordo"
+
+#~ msgid "I disagree"
+#~ msgstr "Non sono d'accordo"
