@@ -1,7 +1,7 @@
 <?php
 /**
  * EUCookieLaw: EUCookieLaw a complete solution to accomplish european law requirements about cookie consent
- * @version 2.4.0
+ * @version 2.6.1
  * @link https://github.com/diegolamonica/EUCookieLaw/
  * @author Diego La Monica (diegolamonica) <diego.lamonica@gmail.com>
  * @copyright 2015 Diego La Monica <http://diegolamonica.info>
@@ -17,7 +17,7 @@ if(defined('EUCOOKIELAW_FORCE_AS_CACHE') || defined('WP_CACHE') && WP_CACHE && (
 
 		global $euc_iniFile;
 
-		if ( ! defined( 'EUCL_CONTENT_DIR' ) ) define('WP_CONTENT_DIR', ABSPATH . '/wp-content');
+		if ( ! defined( 'EUCL_CONTENT_DIR' ) ) define('EUCL_CONTENT_DIR', ABSPATH . '/wp-content');
 
 		if ( is_dir( EUCL_CONTENT_DIR . '/plugins/nextgen-gallery' ) &&
 		     ( strpos( strtolower( $_SERVER['REQUEST_URI'] ), 'nextgen-attach_to_post' ) !== false )
@@ -58,6 +58,7 @@ if(defined('EUCOOKIELAW_FORCE_AS_CACHE') || defined('WP_CACHE') && WP_CACHE && (
 			$lookInScripts      = EUCgetOption( EUCookieLaw::OPT_LOOKINSCRIPTS, 'n' );
 			$debug              = EUCgetOption( EUCookieLaw::OPT_DEBUG, 'n' );
 			$logFile            = EUCgetOption( EUCookieLaw::OPT_LOGFILE, '' );
+			$verbosity          = EUCgetOption( EUCookieLaw::OPT_DEBUG_VERBOSITY, '99' );
 			$enabled            = EUCgetOption( EUCookieLaw::OPT_ENABLED, 'y' );
 			$whitelstCookies    = EUCgetOption( EUCookieLaw::OPT_WHITELIST_COOKIES, '' );
 
@@ -72,6 +73,9 @@ if(defined('EUCOOKIELAW_FORCE_AS_CACHE') || defined('WP_CACHE') && WP_CACHE && (
 
 			$iframeSrc = EUCgetOption( EUCookieLaw::OPT_DEFAULT_IFRAME_SRC, false );
 			$scriptSrc = EUCgetOption( EUCookieLaw::OPT_DEFAULT_SCRIPT_SRC, false );
+			$imageSrc = EUCgetOption( EUCookieLaw::OPT_DEFAULT_IMAGE_SRC, false );
+
+			$ignoredUrl = EUCgetOption( EUCookieLaw::OPT_UNAPPLY_ON_URL, '');
 
 			if ( ! $iframeSrc ) $iframeSrc = 'about:blank';
 			if ( ! $scriptSrc ) $scriptSrc = 'about:blank';
@@ -104,12 +108,16 @@ if(defined('EUCOOKIELAW_FORCE_AS_CACHE') || defined('WP_CACHE') && WP_CACHE && (
 			! defined( 'EUCOOKIELAW_BANNER_AGREE_LINK' ) && define( 'EUCOOKIELAW_BANNER_AGREE_LINK', $agreeLink );
 			! defined( 'EUCOOKIELAW_BANNER_DISAGREE_LINK' ) && define( 'EUCOOKIELAW_BANNER_DISAGREE_LINK', $disagreeLink );
 
-			! defined( 'EUCOOKIELAW_DEBUG' ) && define( 'EUCOOKIELAW_DEBUG', ( $debug == 'y' ) );
+			! defined( 'EUCOOKIELAW_DEBUG' ) && define( 'EUCOOKIELAW_DEBUG', ( $debug !== 'n' ) );
+			! defined( 'EUCOOKIELAW_DEBUG_VERBOSITY') && define('EUCOOKIELAW_DEBUG_VERBOSITY', (int)$verbosity);
 			! defined( 'EUCOOKIELAW_DISABLED' ) && define( 'EUCOOKIELAW_DISABLED', $enabled !== 'y' );
 			! defined( 'EUCOOKIELAW_ALLOWED_COOKIES' ) && define( 'EUCOOKIELAW_ALLOWED_COOKIES', $whitelstCookies );
 
 			! defined( 'EUCOOKIELAW_IFRAME_DEFAULT_SOURCE' ) && define( 'EUCOOKIELAW_IFRAME_DEFAULT_SOURCE', $iframeSrc );
 			! defined( 'EUCOOKIELAW_SCRIPT_DEFAULT_SOURCE' ) && define( 'EUCOOKIELAW_SCRIPT_DEFAULT_SOURCE', $scriptSrc );
+			! defined( 'EUCOOKIELAW_IMAGE_DEFAULT_SOURCE' ) && define( 'EUCOOKIELAW_IMAGE_DEFAULT_SOURCE', $imageSrc );
+
+			! defined( 'EUCOOKIELAW_IGNORED_URLS') && define( 'EUCOOKIELAW_IGNORED_URLS', $ignoredUrl);
 
 			require_once dirname( __FILE__ ) . '/eucookielaw-header.php';
 		}
